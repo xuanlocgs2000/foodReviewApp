@@ -6,14 +6,14 @@ splash screen:
 <img src="https://github.com/xuanlocgs2000/foodReviewApp/blob/UI/src/assets/images/screenshot/splash.png" alt="spalashscreen" width="300"/>
 
 splash screen:
-![spalashscreen](https://github.com/xuanlocgs2000/foodReviewApp/blob/UI/src/assets/images/screenshot/splash.png)
+![spalashscreen](https://github.com/xuanlocgs2000/foodReviewApp/blob/UI/src/assets/images/screenshot/splash.png alt="spalashscreen" width="300")
 flat list :
-![flatscreen](https://github.com/xuanlocgs2000/foodReviewApp/blob/UI/src/assets/images/screenshot/flat1.png)
-![flatscreen](https://github.com/xuanlocgs2000/foodReviewApp/blob/UI/src/assets/images/screenshot/flat2.png)
-![flatcreen](https://github.com/xuanlocgs2000/foodReviewApp/blob/UI/src/assets/images/screenshot/flat3.png)
+![flatscreen](https://github.com/xuanlocgs2000/foodReviewApp/blob/UI/src/assets/images/screenshot/flat1.png alt="flist" width="300")
+![flatscreen](https://github.com/xuanlocgs2000/foodReviewApp/blob/UI/src/assets/images/screenshot/flat2.png alt="flit2" width="300")
+![flatcreen](https://github.com/xuanlocgs2000/foodReviewApp/blob/UI/src/assets/images/screenshot/flat3.png alt="flit3" width="300")
 Login:
-![loginscreen](https://github.com/xuanlocgs2000/foodReviewApp/blob/UI/src/assets/images/screenshot/login.png)
+![loginscreen](https://github.com/xuanlocgs2000/foodReviewApp/blob/UI/src/assets/images/screenshot/login.png alt="loginscreen" width="300")
 signup:
-![singupscreen](https://github.com/xuanlocgs2000/foodReviewApp/blob/UI/src/assets/images/screenshot/signup.png)
+![singupscreen](https://github.com/xuanlocgs2000/foodReviewApp/blob/UI/src/assets/images/screenshot/signup.png alt="loginscreen" width="300")
 resetpass:
-![resetpass](https://github.com/xuanlocgs2000/foodReviewApp/blob/UI/src/assets/images/screenshot/resetpass.png)
+![resetpass](https://github.com/xuanlocgs2000/foodReviewApp/blob/UI/src/assets/images/screenshot/resetpass.png alt="loginscreen" width="300")
