@@ -5,8 +5,7 @@ Open [https://github.com/xuanlocgs2000/Api_social_app](https://github.com/xuanlo
 splash screen:
 <img src="https://github.com/xuanlocgs2000/foodReviewApp/blob/UI/src/assets/images/screenshot/splash.png" alt="spalashscreen" width="300"/>
 
-splash screen:
-![spalashscreen](https://github.com/xuanlocgs2000/foodReviewApp/blob/UI/src/assets/images/screenshot/splash.png alt="spalashscreen" width="300")
+
 flat list :
 <img src="https://github.com/xuanlocgs2000/foodReviewApp/blob/UI/src/assets/images/screenshot/flat1.png" alt="fl1screen" width="300"/>
 <img src="https://github.com/xuanlocgs2000/foodReviewApp/blob/UI/src/assets/images/screenshot/flat2.png" alt="fl2reen" width="300"/>
@@ -14,8 +13,14 @@ flat list :
 
 
 Login:
-![loginscreen](https://github.com/xuanlocgs2000/foodReviewApp/blob/UI/src/assets/images/screenshot/login.png alt="loginscreen" width="300")
+<img src="https://github.com/xuanlocgs2000/foodReviewApp/blob/UI/src/assets/images/screenshot/login.png" alt="fl3creen" width="300"/>
+
+
 signup:
-![singupscreen](https://github.com/xuanlocgs2000/foodReviewApp/blob/UI/src/assets/images/screenshot/signup.png alt="loginscreen" width="300")
+<img src="https://github.com/xuanlocgs2000/foodReviewApp/blob/UI/src/assets/images/screenshot/signup.png" alt="fl3creen" width="300"/>
+
+
 resetpass:
-![resetpass](https://github.com/xuanlocgs2000/foodReviewApp/blob/UI/src/assets/images/screenshot/resetpass.png alt="loginscreen" width="300")
+<img src="https://github.com/xuanlocgs2000/foodReviewApp/blob/UI/src/assets/images/screenshot/resetpass.pngg" alt="fl3creen" width="300"/>
+
+
