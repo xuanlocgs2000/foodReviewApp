@@ -21,6 +21,6 @@ signup:
 
 
 resetpass:
-<img src="https://github.com/xuanlocgs2000/foodReviewApp/blob/UI/src/assets/images/screenshot/resetpass.pngg" alt="fl3creen" width="300"/>
+<img src="https://github.com/xuanlocgs2000/foodReviewApp/blob/UI/src/assets/images/screenshot/resetpass.pngg" alt="resetcreen" width="300"/>
 
 
