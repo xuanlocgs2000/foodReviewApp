@@ -13,6 +13,7 @@ export default {
   LIGHT_GREEN: '#CEE8E7',
   LIGHT_BLUE: '#1289A7',
   LIGHT_LINH: '#ff3838',
+  LIGHT_LINH2: '#bdc3c7',
   LIGHT_GREY: '#F8F7F7',
   LIGHT_GREY2: '#EAEAEA',
   LIGHT_YELLOW: '#FCE6CD',

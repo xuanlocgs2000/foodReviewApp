@@ -14,8 +14,9 @@ import Feather from 'react-native-vector-icons/Feather';
 import {Colors, Fonts, Images} from '../contants';
 import {Display} from '../utils';
 
-const SigninScreen = ({navigation}) => {
+const SignupScreen = ({navigation}) => {
   const [isPasswordShow, setIsPasswordShow] = useState(false);
+
   return (
     <View style={styles.container}>
       <StatusBar
@@ -30,12 +31,30 @@ const SigninScreen = ({navigation}) => {
           size={30}
           onPress={() => navigation.goBack()}
         />
-        <Text style={styles.headerTitle}>Đăng nhập</Text>
+        <Text style={styles.headerTitle}>Đăng kí</Text>
       </View>
-      <Text style={styles.title}>Xin chào</Text>
+      <Text style={styles.title}>Tạo tài khoản của bạn</Text>
       <Text style={styles.content}>
         {/* Hãy nhập tên đăng nhập mà mật khẩu của bạn, cùng nhau khám phá */}
       </Text>
+      <View style={styles.inputContainer}>
+        <View style={styles.inputSubContainer}>
+          <Feather
+            name="mail"
+            size={22}
+            color={Colors.DEFAULT_GREY}
+            style={{marginRight: 10}}
+          />
+          <TextInput
+            placeholder="Email"
+            placeholderTextColor={Colors.DEFAULT_GREY}
+            selectionColor={Colors.DEFAULT_GREY}
+            style={styles.inputText}
+            onChangeText={text => setUsername(text)}
+          />
+        </View>
+      </View>
+      <Separator height={15} />
       <View style={styles.inputContainer}>
         <View style={styles.inputSubContainer}>
           <Feather
@@ -79,29 +98,11 @@ const SigninScreen = ({navigation}) => {
           />
         </View>
       </View>
-      <Text></Text>
-      <View style={styles.forgotPasswordContainer}>
-        <View style={styles.toggleContainer}>
-          <ToggleButton size={0.5} />
-          <Text style={styles.rememberMeText}>Nhớ tôi</Text>
-        </View>
-        <Text
-          style={styles.forgotPasswordText}
-          onPress={() => navigation.navigate('ForgotPassword')}>
-          Quên mật khẩu
-        </Text>
-      </View>
       <TouchableOpacity style={styles.signinButton}>
-        <Text style={styles.signinButtonText}>Đăng nhập</Text>
+        <Text style={styles.signinButtonText}>Đăng kí</Text>
       </TouchableOpacity>
-      <View style={styles.signupContainer}>
-        <Text style={styles.accountText}>Bạn chưa có tài khoản? </Text>
-        <Text
-          style={styles.signupText}
-          onPress={() => navigation.navigate('Signup')}>
-          Đăng kí
-        </Text>
-      </View>
+      <Separator height={15} />
+
       <Text style={styles.orText}>Hoặc </Text>
       <Separator height={15} />
       <TouchableOpacity style={styles.googleButton}>
@@ -120,13 +121,11 @@ const SigninScreen = ({navigation}) => {
           <Text>Tài khoản Facebook</Text>
         </View>
       </TouchableOpacity>
-
-      {/* <Separator /> */}
     </View>
   );
 };
 
-export default SigninScreen;
+export default SignupScreen;
 
 const styles = StyleSheet.create({
   container: {
